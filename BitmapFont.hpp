@@ -37,7 +37,7 @@ namespace dbr
 			void smooth(bool s);
 
 			// returns the top-left texture coordinate of codePoint
-			// if does not exist, returns {0, 0}
+			// if does not exist, returns {0, 0} (texture coordinate for space)
 			sf::Vector2u getTextureCoord(sf::Uint32 codePoint) const;
 
 		private:
